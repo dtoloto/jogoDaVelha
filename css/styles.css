@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    height: 100%;
+}
+
+button{
+    margin: 0 2% 2% 2%;;
+    width: 17%;
+    height: 4.5vh;
+    border-radius: 5px;
+    border: 0;
+    background-color: #66a1f9;
+    color: white;
+}
+
+.tabuleiro{
+    border: 1px solid black;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.linha{
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+}
+
+.coluna{
+    width: 33%;
+    height: 210px;
+    border: 1px solid black;
+}
+
+.azul{
+    background-color: #2060bf;
+}
+
+.vermelho{
+    background-color: #bf2d1f;
+}
